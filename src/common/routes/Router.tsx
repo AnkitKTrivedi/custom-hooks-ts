@@ -4,6 +4,7 @@ import Introduction from "../../components/introduction";
 import UseBoolean from "../../components/hooks/useBoolean";
 import UseDebounce from "../../components/hooks/useDebounce";
 import UseEffectOnce from "../../components/hooks/useEffectOnce";
+import UseFirstRender from "../../components/hooks/useFirstRender";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
           <Route path="/useBoolean" element={<UseBoolean />} />
           <Route path="/useDebounce" element={<UseDebounce />} />
           <Route path="/useEffectOnce" element={<UseEffectOnce />} />
+          <Route path="/useFirstRender" element={<UseFirstRender />} />
         </Routes>
       </div>
       <div className="bd-toc mt-3 mb-5 my-lg-0 mb-lg-5 px-sm-1 text-body-secondary">

@@ -40,6 +40,13 @@ const SubMenu = () => {
             >
               useEffectOnce
             </Link>
+            <Link
+              className="nav-link bd-links-link  rounded p-2"
+              aria-current="page"
+              to="/useFirstRender"
+            >
+              useFirstRender
+            </Link>
           </div>
         </nav>
       </div>
